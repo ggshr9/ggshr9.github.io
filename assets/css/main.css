@@ -3417,13 +3417,13 @@ input, select, textarea {
         background: #21b2a6;
         color: #ffffff;
         height: 100%;
-        max-width: 80%;
+        min-width: fit-content;
         overflow-y: auto;
         padding: 3em 2em;
         position: fixed;
         right: 0;
         top: 0;
-        width: 20em;
+        width: 20%;
         z-index: 10002;
     }
 
@@ -3499,6 +3499,7 @@ input, select, textarea {
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
+        /* width:fit-content; */
     }
 
 /* Banner 横幅广告 */
@@ -3573,7 +3574,8 @@ input, select, textarea {
         }
 
             #banner p a {
-                color: inherit;
+                color:#d3d4e4;
+                border-bottom: none;
             }
 
         #banner .more {
@@ -3647,21 +3649,21 @@ input, select, textarea {
 
             #banner {
                 padding: 7em 3em 5em 3em ;
-                height: auto;
+                /* height: auto; */
                 min-height: 0;
             }
 
                 #banner h2 {
-                    font-size: 1.25em;
+                    font-size: 1.5em;
                 }
 
                 #banner br {
                     display: none;
                 }
 
-                #banner .more {
+                /* #banner .more {
                     display: none;
-                }
+                } */
 
         }
 
@@ -3926,14 +3928,14 @@ input, select, textarea {
 
     #main > header {
         padding: 12em 0 10em 0 ;
-        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/404-not-found-01.jpg");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/404-not-found-01.jpg");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/404-not-found-01.jpg");
+        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/404-not-found-01.jpg");
         background-attachment: fixed;
-        background-position: center center;
+        /* background-position: center center; */
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         text-align: center;
     }
 
@@ -4539,10 +4541,10 @@ input, select, textarea {
 /* Landing */
 
     body.landing #page-wrapper {
-        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+        /* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
         background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
         background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
