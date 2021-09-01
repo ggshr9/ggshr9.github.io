@@ -49,3 +49,9 @@ body.is-preload #banner .more {
 body.is-preload #banner:after {
     opacity: 0;
 }
+
+/* Carousel */
+
+    .carousel {
+        overflow-x: auto;
+    }
